@@ -1,0 +1,13 @@
+train: C:/Users/inseong/Desktop/yolov5(S)(T)/yolov5-master/yolov5 dataset/train/images
+val: C:/Users/inseong/Desktop/yolov5(S)(T)/yolov5-master/yolov5 dataset/valid/images
+test: C:/Users/inseong/Desktop/yolov5(S)(T)/yolov5-master/yolov5 dataset/test/images
+
+nc: 5
+names: ['bag', 'earphone', 'person', 'phone', 'wallet']
+
+roboflow:
+  workspace: project-bzjql
+  project: yolov5-datasets
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/project-bzjql/yolov5-datasets/dataset/1
